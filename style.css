@@ -1,0 +1,76 @@
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.list {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5vh;
+}
+
+h2 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 10vh;
+}
+
+.seeds {
+    display: flex;
+    flex-direction: row;
+}
+
+.skin {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    display: flex;
+    flex-direction: row;
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+}
+
+.medium {
+    display: flex;
+    flex-direction: row;
+}
+
+.rare {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+}
+
+.right {
+    width: 50%;
+    border: 2px solid black;
+    height: 100vh;
+}
+
+/* .food {
+    visibility: hidden;
+} */
