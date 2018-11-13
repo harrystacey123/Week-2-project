@@ -1,56 +1,51 @@
 h1 {
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+    color: #5D8018;
+    font-family: 'Poiret One', cursive;
     font-size: 4vh;
+    text-align: center;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     list-style-type: none;
+    justify-content: center;
+
+
 }
 
+.list:hover { 
+    background-color: white;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    color: #5D8018;
+    font-size: 3vh;
+}
+
+
+
 .list {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 5vh;
+    font-family: 'Poiret One', cursive;
+    margin: 5vh;
+    padding: 2vh;
+    border-radius: 1vh;
 }
 
 h2 {
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+    color: #5D8018;
+    font-family: 'Poiret One', cursive;
 }
 
 img {
-    height: 10vh;
+    height: 14vh;
+    border: 1px solid #5D8018;
+    border-radius: 1vh;
 }
 
-.seeds {
-    display: flex;
-    flex-direction: row;
-}
-
-.skin {
-    display: flex;
-    flex-direction: row;
-}
-
-.green {
-    display: flex;
-    flex-direction: row;
-}
-
-.red {
-    display: flex;
-    flex-direction: row;
-}
-
-.medium {
-    display: flex;
-    flex-direction: row;
-}
-
-.rare {
+.seeds, .skin, .green, .red, .medium, .rare {
     display: flex;
     flex-direction: row;
 }
@@ -58,19 +53,64 @@ img {
 body {
     display: flex;
     flex-direction: row;
+    background-color: #caffba;
 }
 
 .left {
     width: 50%;
-    height: 100vh;
+    height: auto;
+    border: 2px solid #5D8018;
+    margin-right: 3px;
 }
 
 .right {
     width: 50%;
-    border: 2px solid black;
-    height: 100vh;
+    border: 2px solid #5D8018;
+    height: auto;
+    margin-left: 3px;
 }
 
-/* .food {
-    visibility: hidden;
+.apple, .banana, .peach, .strawberry, .broccoli, .cabbage, .carrot, .pepper, .beef, .chicken, .pork, .duck {
+    margin: 2vh;
+    width: 20vw;
+    height: 20vh;
+}
+
+.fruit, .meat, .vegetables {
+    position: relative;
+    text-align: center;
+}
+
+#shopping {
+    color: #5D8018;
+    font-family: 'Poiret One', cursive;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside ul li {
+    padding: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+aside h1 {
+    margin-bottom: 20vh;
+}
+
+/* .check {
+    display: flex;
+    flex-direction: row;
 } */
+
+.out {
+    float: right;
+    border: 2px #5D8018 solid;
+    background: transparent;
+    margin-right: 1vh;
+    color: #5D8018;
+    height: 4vh;
+    border-radius: 1vh;
+}
